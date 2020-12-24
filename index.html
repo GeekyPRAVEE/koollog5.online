@@ -11,14 +11,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   </head>
-  <body class="koollog">
+  <body>
     <div class="loading-spinner"></div>
     <!-- header section starts-->
     <nav class="top-nav">
       <ul>
-        <li><a href="#"><img src="./fb.b1.svg"/></a></li>
+        <!-- <li><a href="#"><img src="./fb.b1.svg"/></a></li> -->
         <li><a href="https://www.youtube.com/channel/UCKYRXcJGq8zqfY07z39gBwQ" target="_blank" ><img src="./youtube.b1.svg"/></a></li>
-        <li><a href="#"><img src="./linkedin.b1.svg"/></a></li>
+        <!-- <li><a href="#"><img src="./linkedin.b1.svg"/></a></li> -->
         <li><a href="mailto: l.k.pravee@gmail.com"><img src="./email.b1.svg"/></a></li>
       </ul>
       <a href="https://koollog.online/cloud/"><img class="login" src="./login.b1.svg"/></a>
@@ -41,15 +41,14 @@
     </div> -->
     <!-- HEADER SECTION ENDS-->
     <!--HOME SECTION ENDS -->
-    <div class="home" id="home">
-      <div class="home-img" data-aos="fade-left">
-        <div class="home-img-center">
-        <!-- <img src="./Group 57.png" alt=""> -->
-        <img src="./koolloghome.png" alt="">
-        </div>
+    <a style="position:relative; top:-120px;" class="bookmark" id="home"></a>
+    <div class="home" >
+      <div class="home-img" data-aos="fade-left" data-aos-duration="2000" >
+          <!-- <img src="./Group 57.png" alt=""> -->
+          <img src="./koolloghome.png" alt="">
       </div>
-      <div class="home-content" data-aos="fade-right">
-        <div class="home-center">
+      <div class="home-content" >
+        <div class="home-center" data-aos="fade-right"  data-aos-duration="2000" >
         <h2>KOOLLOG</h2>
         <h4>Monitor your environment from anywhere, 24/7</h4>
         <p>Koollog provides continuous remote monitoring of your most critical environments to ensure product safety and leave you with peace of mind.</p>
@@ -60,15 +59,15 @@
       </div>
     </div>
 
-    <div class="center">
-      <div class="pulse">
-        <a id="myBtn-form"><img class="form-icon" src="./chat-icon6.svg" style="width:65px;height:65px" alt=""> </a>
-      </div>
-    </div>
     <div id="myModal" class="modal">
       <div class="modal-content">
         <span class="close">&times;</span>
         <iframe  src="https://www.youtube.com/embed/pEGqQkRfpak" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="center">
+      <div class="pulse">
+        <a id="myBtn-form"><img class="form-icon" src="./chat-icon6.svg" style="width:65px;height:65px" alt=""> </a>
       </div>
     </div>
     <div id="myModal-form" class="modal-form">
@@ -91,11 +90,13 @@
     </div>
 <!-- HOME SECTION ENDS -->
 <!-- ABOUT SECTION STARTS-->
-    <div class="about" data-aos="zoom-in-down" >
-      <div data-aos="zoom-in-down" class="about-koollog" id="aboutus">
+<a style="position:relative; top:-110px;" class="bookmark"id="aboutus"></a>
+    <div class="about" data-aos="zoom-in-down" data-aos-duration="2000" >
+      <div class="about-koollog" >
           <div class="koollog-webapp">
           <!-- <a href="#"></a>  <iframe width="600px" height="450px" src="https://www.youtube.com/embed/pEGqQkRfpak?autoplay=1&mute=1&control=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media;clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
             <!-- <img src="./aboutk1.svg" alt=""> -->
+            <!-- <img src="./sensor+app2.png" alt=""> -->
             <img src="./monitoringtemp.png" alt="">
           </div>
           <div class="aboutus">
@@ -133,8 +134,8 @@
 
 <!-- ABOUTUS SECTION ENDS -->
 <!-- WHY KOOLLOG SECTION STARTS -->
-<div class="whykoollog">
-  <div class="why" data-aos="flip-left">
+<div class="whykoollog"  data-aos="fade-up"data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
+  <div class="why">
     <h4>Your Challenges</h4>
     <!-- <img class="why-img" src="./challenges 1.svg" alt=""> -->
     <img class="why-img" src="./challenge4.jpg" alt="">
@@ -146,7 +147,7 @@
       <li>Comply with rules and regulations.</li>
     </ul>
   </div>
-  <div class="why" data-aos="flip-right">
+  <div class="why" >
     <h4>Our solutions</h4>
     <!-- <img class="why-img" src="./solution 2.svg" alt=""> -->
       <img class="why-img" src="./solution6.jpg" alt="">
@@ -158,7 +159,7 @@
       <li>Log sensor readings in an efficient and secure manner.</li>
     </ul>
   </div>
-  <div class="why" data-aos="flip-left">
+  <div class="why" >
     <h4>Koollog benefits</h4>
     <!-- <img class="why-img" src="./benefits 1.svg" alt=""> -->
       <img class="why-img" src="./advantages1.jpg" alt="">
@@ -173,9 +174,12 @@
 </div>
 <!-- WHY KOOLLOG SECTION ENDS-->
 <!-- FEATURES SECTION STRTS-->
-<h3 class="title">Koollog Features</h3>
-<div class="features">
-    <div class="feature" data-aos="zoom-in-up">
+<div class="">
+  <h3 class="title">Koollog Features</h3>
+
+<div class="features" data-aos="fade-up"data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
+
+    <div class="feature" >
       <div class="feature-img">
         <img src="./Group 62.png" alt="">
       </div>
@@ -185,7 +189,7 @@
         <p>Set up alerts for warnings and excursions, high/low variable readings, and device failures or disconnects. Get a historical record of alerts and see current trends. Comment on alarms from anywhere, take ownership of events, and record what, why, and how an alert occurred — along with how it was fixed.</p>
       </div>
     </div>
-      <div class="feature" data-aos="zoom-in-up">
+      <div class="feature" >
         <div class="feature-img1">
           <img src="./imacappp.png" alt="">
         </div>
@@ -197,7 +201,7 @@
       </div>
     </div>
       <div class="features">
-        <div class="feature" data-aos="zoom-in-up">
+        <div class="feature" >
             <div class="feature-img">
               <img src="./Group 59.png" alt="">
             </div>
@@ -207,9 +211,9 @@
                 <p>View data collected by the Koollog system from any web-enabled device, anywhere in the world. Access detailed graphs of cooler performance, checklist completion, corrective actions, and alerts communicated to store staff – it’s all at your fingertips.</p>
             </div>
         </div>
-        <div class="feature" data-aos="zoom-in-up">
+        <div class="feature" >
             <div class="feature-img1">
-              <img src="./Group 65.png" alt="">
+              <img src="./Group 105.png" alt="">
             </div>
             <div class="feature-des1">
               <img src="" alt="">
@@ -219,7 +223,7 @@
         </div>
       </div>
       <div class="features">
-        <div class="feature" data-aos="zoom-in-up">
+        <div class="feature" >
             <div class="feature-img">
               <img src="./Group 59.png" alt="">
             </div>
@@ -229,9 +233,9 @@
                 <p>The Koollog Cloud offers peace of mind and data assurance. As a monitoring system, the Koollog Cloud allows for instant access to real-time data in the palm of your hand. As a logging solution, recorded data is buffered and saved to the device’s internal memory.</p>
             </div>
         </div>
-      <div class="feature" data-aos="zoom-in-up">
+      <div class="feature" >
           <div class="feature-img1">
-            <img src="./alerts.png" alt="">
+            <img src="./Group 103.png" alt="">
           </div>
           <div class="feature-des1">
             <img src="" alt="">
@@ -240,15 +244,14 @@
           </div>
       </div>
     </div>
-
+</div>
 
 <!-- FEATURES SECTION ENDS-->
 <!--APPLICATION SECTION STARTS-->
-    <div class="applications" id="applications">
-     <h2 class="title">Applications</h2>
-      <div class="application" data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+<a style="position:relative; top:-130px;" class="bookmark" id="applications"></a>
+    <div class="applications"data-aos="fade-up"data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
+     <h2 class="title" >Applications</h2>
+      <div class="application" >
         <div class="app-card">
           <div class="app-img">
             <img src="./healthcare.jpg" alt="">
@@ -278,7 +281,7 @@
         </div>
       </div>
 
-    <div class="application" data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine" >
+    <div class="application">
         <div class="app-card">
           <div class="app-img">
             <img src="./industry.jpg" alt="">
@@ -310,10 +313,11 @@
     </div>
   <!-- APPLICATION SECTION ENDS -->
   <!--PRODUCTS SECTION STARTS -->
-    <div class="productss" id="products">
+  <a style="position:relative; top:-130px;" class="bookmark" id="products"></a>
+    <div class="productss" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000" >
     <h3 class="title">Products</h3>
       <div class="products-page">
-        <div class="product" data-aos="fade-up"data-aos-anchor-placement="top-bottom">
+        <div class="product" >
           <div class="product-img1">
             <img src="./product.png">
           </div>
@@ -328,7 +332,7 @@
             </ul>
           </div>
         </div>
-        <div class="product" data-aos="fade-up"data-aos-anchor-placement="top-bottom">
+        <div class="product" >
           <div class="product-img">
             <img src="./product1.png">
           </div>
@@ -345,7 +349,7 @@
         </div>
       </div>
  <div class="products-page">
-        <div class="product" data-aos="fade-up"data-aos-anchor-placement="top-bottom">
+        <div class="product" >
           <div class="product-img">
             <img src="./product2.png">
           </div>
@@ -360,7 +364,7 @@
             </ul>
           </div>
         </div>
-        <div class="product" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <div class="product" >
           <div class="product-img">
             <img src="./product3.png">
           </div>
@@ -376,10 +380,7 @@
           </div>
         </div>
     </div>
-</div>
-<!--PRODUCT SECTION ENDS-->
-<!-- PLATFOM SECTION STARTS -->
-    <div class="platform">
+    <div class="platform" >
       <div class="platform-img">
         <!-- <img src="./guide.png" alt=""> -->
         <!-- <img src="./appmockup.png" alt=""> -->
@@ -396,29 +397,23 @@
             <p>Get accurate, real-time temperature and humidity readings straight to your phone or desktop in iAuditor. Right out of the box, our sensors have been configured to work seamlessly within iAuditor, connecting automatically when you set them up so you can build the workflows you need.</p>
         </div>
     </div>
-<!-- PLATFOM SECTION ENDS-->
+<!--PRODUCT SECTION ENDS-->
     <!-- CONTACT SECTION STARTS -->
-    <div class="contact-section" id="contact">
+    <a style="position:relative; top:-130px;" class="bookmark" id="contact"></a>
+    <div class="contact-section" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
       <h2 class="title">Contact</h2>
-      <div class="contact">
+      <div class="contact" >
 
           <div class="address">
                 <div class="address-info">
-                  <img src="./location_icon.png" alt="">
+                  <img src="./location.svg" alt="">
                   <div class="">
                     <h4>Address Info</h4>
-                  <p>91, Perundurai Road, Erode <br> Tamilnadu, India</p>
+                    <p>91, Perundurai Road, Erode <br> Tamilnadu, India</p>
                   </div>
                 </div>
                 <div class="email">
-                  <img src="./email_icon.png" alt="">
-                  <div class="">
-                    <h4>Email</h4>
-                    <p>sales@koollog.online <br> cs@koollog.online</p>
-                  </div>
-                </div>
-                <div class="email">
-                  <img src="./email_icon.png" alt="">
+                  <img src="./mdi_email.svg" alt="">
                   <div class="">
                     <h4>Email</h4>
                     <p>sales@koollog.online <br> cs@koollog.online</p>
@@ -428,6 +423,9 @@
           <div class="contact-img">
               <img src="./contact-1.png" alt="">
           </div>
+          <!-- <div class="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3912.03131103374!2d77.70244721412075!3d11.332422051784986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba96f1f36b1fc7d%3A0x629b6e4ffde7de09!2sHashprompt%20Softwares%20Private%20Ltd!5e0!3m2!1sen!2sin!4v1608476498030!5m2!1sen!2sin"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div> -->
      </div>
    </div>
 <!-- CONTACT SECTION ENDS-->
